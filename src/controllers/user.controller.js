@@ -124,8 +124,8 @@ const registerUser = asyncHandler(async (req, res) => {
    const options = {
      httpOnly: true,   // Prevent client-side access
      secure: true,  // Use secure cookies in production
-     path: "full-stack-kanban-lkjb.vercel.app",
-     signed: true,     // Ensure the cookie is signed
+     //path: "full-stack-kanban-lkjb.vercel.app",
+    // signed: true,     // Ensure the cookie is signed
      sameSite: "None", // Allows cross-site cookies (needed if frontend & backend are on different domains)
 };
 
@@ -162,8 +162,8 @@ const registerUser = asyncHandler(async (req, res) => {
    const options = {
      httpOnly: true,   // Prevent client-side access
      secure: true,  // Use secure cookies in production
-     path: "full-stack-kanban-lkjb.vercel.app",
-     signed: true,     // Ensure the cookie is signed
+     //path: "full-stack-kanban-lkjb.vercel.app",
+     //signed: true,     // Ensure the cookie is signed
      sameSite: "None", // Allows cross-site cookies (needed if frontend & backend are on different domains)
 };
 
